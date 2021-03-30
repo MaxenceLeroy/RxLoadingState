@@ -24,10 +24,9 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "Extension of observable to handle command loading while returning query result"
 
-  spec.homepage     = "http://EXAMPLE/RxLoadingState"
+  spec.homepage     = "https://github.com/MaxenceLeroy/RxLoadingState"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => 'https://github.com/MaxenceLeroy/RxLoadingState', :tag => '0.1.0' }
+  spec.source       = { :git => 'https://github.com/MaxenceLeroy/RxLoadingState.git', :tag => '0.1.0' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
